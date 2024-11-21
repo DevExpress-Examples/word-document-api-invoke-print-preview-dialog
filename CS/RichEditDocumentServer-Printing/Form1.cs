@@ -43,9 +43,9 @@ namespace RichEditDocumentServer_Printing
             Table _table = richServer.Document.Tables.Create(richServer.Document.Selection.Start, 8, 8, AutoFitBehaviorType.FixedColumnWidth);
             _table.BeginUpdate();
             _table.Borders.InsideHorizontalBorder.LineThickness = 1;
-            _table.Borders.InsideHorizontalBorder.LineStyle = TableBorderLineStyle.Double;
+            _table.Borders.InsideHorizontalBorder.LineStyle = BorderLineStyle.Double;
             _table.Borders.InsideVerticalBorder.LineThickness = 1;
-            _table.Borders.InsideVerticalBorder.LineStyle = TableBorderLineStyle.Double;
+            _table.Borders.InsideVerticalBorder.LineStyle = BorderLineStyle.Double;
             _table.TableAlignment = TableRowAlignment.Center;
 
             _table.ForEachCell((cell, rowIndex, columnIndex) =>
