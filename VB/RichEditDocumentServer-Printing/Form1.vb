@@ -34,9 +34,9 @@ Namespace RichEditDocumentServer_Printing
             Dim _table As Table = richServer.Document.Tables.Create(richServer.Document.Selection.Start, 8, 8, AutoFitBehaviorType.FixedColumnWidth)
             _table.BeginUpdate()
             _table.Borders.InsideHorizontalBorder.LineThickness = 1
-            _table.Borders.InsideHorizontalBorder.LineStyle = BorderLineStyle.Double
+            _table.Borders.InsideHorizontalBorder.LineStyle = TableBorderLineStyle.Double
             _table.Borders.InsideVerticalBorder.LineThickness = 1
-            _table.Borders.InsideVerticalBorder.LineStyle = BorderLineStyle.Double
+            _table.Borders.InsideVerticalBorder.LineStyle = TableBorderLineStyle.Double
             _table.TableAlignment = TableRowAlignment.Center
             _table.ForEachCell(Sub(cell, rowIndex, columnIndex) richServer.Document.InsertText(cell.Range.Start, String.Format("{0}*{1} is {2}", rowIndex + 2, columnIndex + 2, (rowIndex + 2) * (columnIndex + 2))))
             _table.EndUpdate()
