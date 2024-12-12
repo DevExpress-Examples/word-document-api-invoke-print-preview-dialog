@@ -4,17 +4,17 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Form1.cs](./CS/RichEditDocumentServer-Printing/Form1.cs) (VB: [Form1.vb](./VB/RichEditDocumentServer-Printing/Form1.vb))
-<!-- default file list end -->
 # Word Processing Document API - Invoke the Print Preview Dialog and Print a Document
 
-<p>This example illustrates how to use the <a href="http://documentation.devexpress.com/#WindowsForms/clsDevExpressXtraPrintingPrintableComponentLinktopic"><u>PrintableComponentLink</u></a> to invoke a Print Preview dialog for a <a href="http://help.devexpress.com/#DocumentServer/clsDevExpressXtraRichEditRichEditDocumentServertopic"><u>RichEditDocumentServer</u></a>. A document server instance is created via code and a simple multiplication table is inserted programmatically in a document.</p>
+This example illustrates how to use the [PrintableComponentLink](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPrinting.PrintableComponentLink) to invoke a Print Preview dialog for a [RichEditDocumentServer](https://docs.devexpress.com/OfficeFileAPI/DevExpress.XtraRichEdit.RichEditDocumentServer). A document server instance is created via code and a simple multiplication table is inserted programmatically in a document.
 
-<br/>
+> [!Important]  
+> The Universal Subscription or an additional Office File API Subscription is required to use this example in production code. For pricing information, please refer to the [DevExpress Subscription](https://www.devexpress.com/Subscriptions/) page.  
 
+## Files to Review
+
+* [Form1.cs](./CS/RichEditDocumentServer-Printing/Form1.cs) (VB: [Form1.vb](./VB/RichEditDocumentServer-Printing/Form1.vb))
 
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
