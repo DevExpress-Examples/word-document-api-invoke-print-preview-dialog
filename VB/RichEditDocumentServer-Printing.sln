@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RichEditDocumentServer-Printing", "RichEditDocumentServer-Printing\RichEditDocumentServer-Printing.vbproj", "{04CF7A8A-6D93-4E1E-AA9E-38E28A8B6B63}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RichEditDocumentServer-Printing", "RichEditDocumentServer-Printing.vbproj", "{04CF7A8A-6D93-4E1E-AA9E-38E28A8B6B63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -14,7 +14,7 @@ This example illustrates how to use the [PrintableComponentLink](https://docs.de
 
 ## Files to Review
 
-* [Form1.cs](./CS/RichEditDocumentServer-Printing/Form1.cs) (VB: [Form1.vb](./VB/RichEditDocumentServer-Printing/Form1.vb))
+* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
 
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?

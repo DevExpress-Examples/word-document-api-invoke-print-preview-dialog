@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <OutputType>WinExe</OutputType>
+        <RootNamespace></RootNamespace>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="DevExpress.Pdf.Core" Version="24.2.*" />
+        <PackageReference Include="DevExpress.RichEdit.Export" Version="24.2.*" />
+        <PackageReference Include="DevExpress.Win.Printing" Version="24.2.*" />
+    </ItemGroup>
+</Project>
