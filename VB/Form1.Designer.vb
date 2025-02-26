@@ -36,7 +36,7 @@ Namespace RichEditDocumentServer_Printing
             Me.btn_Print.TabIndex = 0
             Me.btn_Print.Text = "Show Print Preview"
             Me.btn_Print.UseVisualStyleBackColor = True
-            AddHandler Me.btn_Print.Click, New System.EventHandler(AddressOf Me.btn_Print_Click)
+            Me.btn_Print.Click += New System.EventHandler(AddressOf Me.btn_Print_Click)
             ' 
             ' Form1
             ' 

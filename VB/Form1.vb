@@ -1,7 +1,6 @@
-Imports System
 Imports System.ComponentModel
 Imports System.Drawing
-Imports System.Windows.Forms
+Imports System.Text
 #Region "#usings"
 Imports DevExpress.XtraRichEdit
 Imports DevExpress.XtraRichEdit.API.Native
@@ -38,7 +37,9 @@ Namespace RichEditDocumentServer_Printing
             _table.Borders.InsideVerticalBorder.LineThickness = 1
             _table.Borders.InsideVerticalBorder.LineStyle = BorderLineStyle.Double
             _table.TableAlignment = TableRowAlignment.Center
-            _table.ForEachCell(Sub(cell, rowIndex, columnIndex) richServer.Document.InsertText(cell.Range.Start, String.Format("{0}*{1} is {2}", rowIndex + 2, columnIndex + 2, (rowIndex + 2) * (columnIndex + 2))))
+            _table.ForEachCell(Function(cell, rowIndex, columnIndex)
+                richServer.Document.InsertText(cell.Range.Start, [String].Format("{0}*{1} is {2}", rowIndex + 2, columnIndex + 2, (rowIndex + 2) * (columnIndex + 2)))
+            End Function)
             _table.EndUpdate()
             richServer.EndUpdate()
             ' Invoke the Print Preview dialog
